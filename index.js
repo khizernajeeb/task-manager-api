@@ -1,4 +1,5 @@
 var { MongoClient } = require("mongodb");
+const serverless = require("serverless-http");
 var url = process.env.MONGO_URL;
 
 MongoClient.connect(
