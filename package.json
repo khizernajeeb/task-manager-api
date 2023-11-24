@@ -29,5 +29,9 @@
     "css-loader": "^6.8.1",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
   }
 }
